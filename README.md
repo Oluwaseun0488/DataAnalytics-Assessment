@@ -108,7 +108,7 @@ Using Docker:
 To turn on mysql and phpMyAdmin tools use command run docker-compose up -d in ~/cowrywise.
 PhpMyAdmin can be accessed from http://localhost:8080 (user is root with mypassword as password).
 
-Loading The DataBase:
+Loading The Db:
 
 Use command adashi_assessment.sql:docker exec cowrywise-mysqldb-1 mysql -uroot -pmypassword adashi_staging -e “SOURCE /sql_files/adashi_assessment.sql”
 
