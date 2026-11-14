@@ -114,6 +114,6 @@ Use command adashi_assessment.sql:docker exec cowrywise-mysqldb-1 mysql -uroot -
 
 Run The Queries:
 
-Individually insert each Assessment_QX.sql into the SQL box on phpMyAdmin or execute via CLI using command: docker exec cowrywise-mysqldb-1 mysql -uroot -pmypassword adashi_staging < Assessment_QX.sql
+
 
 
