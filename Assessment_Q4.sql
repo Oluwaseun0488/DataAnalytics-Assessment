@@ -24,4 +24,4 @@ SELECT
     ROUND((total_transactions / tenure_months) * 12 * avg_profit_per_transaction, 2) AS estimated_clv
 FROM CustomerStats
 -- Order by highest CLV
-ORDER BY estimated_clv DESC;
+--ORDER BY estimated_clv DESC;
